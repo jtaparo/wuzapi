@@ -1,4 +1,4 @@
-FROM golang:1.23-alpine3.20 AS builder
+FROM golang:1.26-alpine3.23 AS builder
 
 RUN apk update && apk add --no-cache gcc musl-dev gcompat
 
